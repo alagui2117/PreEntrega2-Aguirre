@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: aqua;
+}
+.contacts{
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Oswald", sans-serif;
+    border: 10px solid red;
+    background-color: beige;
+}
+.llenado{
+    border: 10px solid green;
+}
+
+input{
+    background-color: burlywood;}
+    
+

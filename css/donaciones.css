@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: aqua;
+
+}
+
+
+.second{
+    background-color: beige;
+    border: 15px solid red;
+}
+
+.dona{
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Oswald", sans-serif;
+    
+    background-color: brown;
+    margin-top: 25px;
+    padding: 25px;
+    border: 10px solid blue
+}
+
+
