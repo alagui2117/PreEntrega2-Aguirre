@@ -1,0 +1,21 @@
+@import "./utilities/mixins";
+@import "./utilities/variables";
+
+@import "./base/reset";
+@import "./base/typografias";
+
+@import "./layout/header";
+@import "./layout/main-index";
+@import "./layout/footer";
+
+@import "./components/navbar";
+
+
+@import "./layout/media/media750";
+@import "./layout/media/media625";
+@import "./layout/media/media376";
+
+
+
+
+

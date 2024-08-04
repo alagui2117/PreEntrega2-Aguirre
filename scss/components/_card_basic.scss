@@ -1,0 +1,12 @@
+.card_1{
+    @include card_basic(red, 1, flex-start);
+}
+.card_2{
+    @include card_basic(red, 2,null);
+}
+.card_3{
+    @include card_basic(red, 3,null);
+}
+.card_4{
+    @include card_basic(red, 4,flex-end);
+}
