@@ -1,13 +1,13 @@
 @import "./utilities/mixins";
 @import "./utilities/variables";
-
-
 @import "./base/reset";
 @import "./base/typografias";
-
+@import "./layout/main-index";
 @import "./layout/footer";
+@import "./layout/contenedor-cars";
+@import "./components/card_basic";
+@import "./components/navbar";
+@import "./components/subtitulos";
 
-@import "components/navbar";
 
 
-@import "components/card_basic";

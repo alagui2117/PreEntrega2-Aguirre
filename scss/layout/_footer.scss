@@ -1,20 +1,18 @@
 footer{
-    display: flex;
     width: 100%;
-    height: 7.8125rem;
-    align-items: center;
-    background-color: black;
+    height: 3.125rem;
     
-    .pie{
-        display: flex;
-        width: 100%;
-        height: 1.25rem;
-        justify-content: space-around;
-        
-        a{                        
-            color: white;
-            
-            
-        }
+    .redes{
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+    background-color: hsla(0, 9%, 89%, 0.56);
+    height: 50px;   
+    }
+    
+    .icon-red{
+    
+        width: 25px; 
+        height: 25px;
     }
 }

@@ -1,0 +1,6 @@
+
+.contenedor-cards{
+    display: flex;
+    width: 100%;
+    @include flex(row,wrap,center,center,1.875rem)
+}

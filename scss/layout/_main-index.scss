@@ -2,38 +2,19 @@
 
 .pagina{    
     width: 100%;
-    height: 40.625rem;    
+    height: 43.75rem;   
    background-color: $color-principal;
 
 }
     
     h1{
+        padding-top: 10px;
         text-align: center;
-        font-size: 48px;
+        font-size: 40px;
         font-weight: 900;
-        font-family: "pokemon";
+        font-family: "fuente";
         color: $color-letras;        
         }
-    img{
-        width: 100%;
-        height: 31.25rem;
-        object-fit: contain;
-        background-size: contain;        
-    }
+   
     
-section{
-    p{
-        text-align: center;
-        font-size: 1.25rem;
-        font-weight: 400;
-        font-family: "pokemon",sans-serif;
-        color: black;
-    }
-}
-.redes{
-    display: flex;
-    width: 100%;
-    height: auto;
-    background-color: lightpink;
-    gap: 1.875rem;
-}
+

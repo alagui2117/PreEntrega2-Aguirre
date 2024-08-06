@@ -1,12 +1,21 @@
-.card_1{
-    @include card_basic(red, 1, flex-start);
+.card{
+    min-width: 12.5rem;
+    height: 18.75rem;
+    border-radius: .9375rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.021);
+    margin: .3125rem;
+    .card_1{
+        @include card_basic(red, 1, flex-start);
+    }
+    .card_2{
+        @include card_basic(red, 2,null);
+    }
+    .card_3{
+        @include card_basic(red, 3,null);
+    }
+    .card_4{
+        @include card_basic(red, 4,flex-end);
+    }
+
 }
-.card_2{
-    @include card_basic(red, 2,null);
-}
-.card_3{
-    @include card_basic(red, 3,null);
-}
-.card_4{
-    @include card_basic(red, 4,flex-end);
-}
+
