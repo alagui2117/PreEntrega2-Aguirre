@@ -13,3 +13,9 @@
     align-self: $alignSelf;
     border-bottom: 20px solid
 }
+
+@mixin add_media($value){
+    @media screen and (min-width: $value) {
+        @content;
+    }
+}

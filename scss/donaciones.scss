@@ -4,11 +4,18 @@
 @import "./base/typografias";
 @import "./layout/header";
 @import "./layout/main-index";
+
 @import "./layout/footer";
-@import "./layout/contenedor-cars";
-@import "./components/card_basic";
-
 @import "./components/subtitulos";
+@import "./layout/media/media720";
+.info{
+    img{
+        width: 100%;
 
-
-
+    }
+    p{
+        font-size: 1.25rem;
+        font-weight: 300;
+        font-family: "fuente";
+    }
+}
