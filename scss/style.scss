@@ -4,10 +4,23 @@
 @import "./base/reset";
 @import "./base/typografias";
 
+@import "./layout/donaciones";
+@import "./layout/adopciones";
+@import "./layout/contactos";
+@import "./layout/experiencias";
+
 @import "./layout/header";
+
 @import "./layout/main-index";
 @import "./layout/footer";
 @import "./layout/media/media720";
+@import "./layout/contenedor-cars";
+@import "./layout/header";
+@import "./layout/media/media720";
+
+@import "./components/card_basic";
+@import "./components/subtitulos";
+
 
 .pagina{
     img{
@@ -18,6 +31,14 @@
     }
 
 
+}
+.pagina1{
+    img{
+        width: 100%;
+        height: 18.75rem;
+        object-fit: contain;
+        background-size: contain;
+    }
 }
 
 section{

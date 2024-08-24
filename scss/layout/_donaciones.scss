@@ -1,0 +1,20 @@
+.info{
+    img{
+        width: 100%;
+        
+    }
+    p{
+        font-size: 1.25rem;
+        font-weight: 300;
+        font-family: "fuente";
+    }
+}
+.direccion{
+    width: 50%;
+    
+    object-fit: contain;
+    background-size: contain;
+    
+}
+
+@import "./layout/media/media720";

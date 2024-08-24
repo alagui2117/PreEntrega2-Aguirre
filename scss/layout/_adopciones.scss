@@ -1,18 +1,3 @@
-@import "./utilities/mixins";
-@import "./utilities/variables";
-@import "./base/reset";
-@import "./base/typografias";
-@import "./layout/header";
-@import "./layout/main-index";
-@import "./layout/footer";
-@import "./layout/contenedor-cars";
-@import "./components/card_basic";
-@import "./layout/footer";
-@import "./layout/header";
-@import "./layout/media/media720";
-@import "./components/subtitulos";
-
-
 .container-full{
     min-width: 100%;
     @include add_media($sm) {
@@ -122,6 +107,9 @@
     height: 100%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
+    p{
+      font-family: "Arial";
+    }
   }
 
   .flip-card-front {

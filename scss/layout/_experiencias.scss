@@ -1,12 +1,3 @@
-@import "./utilities/mixins";
-@import "./utilities/variables";
-@import "./base/reset";
-@import "./base/typografias";
-@import "./layout/footer";
-@import "./layout/header";
-@import "./layout/media/media720";
-
-
 .container-full{
     min-width: 100%;
     @include add_media($sm) {
@@ -67,6 +58,9 @@
     height: 100%;
   }
   .box-text{
+    p{
+      font-family: "Arial";
+    }
     @include add_media($xs){
       flex-basis: 100%;
     }
